@@ -1,0 +1,35 @@
+@mixin base() {
+        
+    align-self: center;
+    background-color: $content-container-background-color;
+    border-radius: $component-border-radius;
+    box-shadow: -5px 8px 12px 0 rgba(74, 74, 74, 0.15);
+    display: block;
+    // margin-left: space(3);
+    margin-right: space(-1.5);
+    max-width: $content-container-max-width;
+    padding-top: space(2);
+    padding-bottom: space(2);
+    padding-left: space(3);
+    padding-right: space(3);
+    position: relative;
+
+
+    &:after {
+        background-color: $shadow-box-bg-color;
+        border: 4px solid $content-container-background-color;
+        content: "";
+        display: block;
+        position: absolute;
+        width: $content-container-after-width-percent;
+        z-index: -1;
+        
+        bottom: space(-2);
+        left: space(-3);
+        top: space(-2);
+    }
+}
+
+&__glass-container {
+     @include base;
+}

@@ -1,0 +1,14 @@
+@mixin base() {
+    //Background image should be loaded via inline style from a CMS.
+
+    align-self: stretch;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    flex: 1 1 50%;
+}
+
+&__image {
+     @include base;
+}

@@ -1,0 +1,32 @@
+$feature-background-color: #F7F7F7;
+
+$content-container-max-width: 575px;
+$content-container-max-height: 365px;
+$content-container-after-width-percent: 90%;
+$content-container-background-color: #FDFDFD;
+$shadow-box-bg-color: #ECF1F3;
+
+@mixin base() {
+
+    background-color: $feature-background-color;
+    display: flex;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+
+    //@include full-width;  <-- This should be applied as a utility class, not here.
+}
+
+.feature {
+
+    $block: &; // Sets a reference to the block level element in to the $block variable.  Therefore $block = .willow-feature.
+
+     @include base;
+     @import "image";
+     @import "content-container";
+     @import "glass-container";
+     @import "content";
+     @import "actions";
+     @import "action";
+     @import "flip";
+}
