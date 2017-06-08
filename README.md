@@ -28,5 +28,6 @@ If not, then a new component is required.
 
  1. Clone this repo.
  2. In the newly cloned folder, open the `/components` folder and make a copy of the `_boilerplate` folder.
- 5. Rename the `_boilerplate` folder copy to the name of your component.
- 6. In the root folder, run `oak start` and when the page loads in your browser, navigate to `http://localhost:3000/components/` followed by your new component folder name.
+ 3. Rename the `_boilerplate` folder copy to the name of your component.
+ 4. In the root folder, run `oak start` and when the page loads in your browser, navigate to `http://localhost:3000/components/` followed by your new component folder name.
+ 5.  Open your new component folder in the editor of your choice, and happy coding.
