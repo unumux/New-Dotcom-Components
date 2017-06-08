@@ -1,9 +1,12 @@
 $feature-background-color: #F7F7F7;
 
-$content-container-max-width: 575px;
-$content-container-max-height: 365px;
-$content-container-after-width-percent: 90%;
-$content-container-background-color: #FDFDFD;
+$color-ocean: #14AECC;
+$feature-sub-heading-color: $color-ocean;
+
+$glass-container-max-width: 575px;
+$glass-container-after-width-percent: 90%;
+$glass-container-background-color: #FDFDFD;
+
 $shadow-box-bg-color: #ECF1F3;
 
 @mixin base() {
@@ -25,6 +28,7 @@ $shadow-box-bg-color: #ECF1F3;
      @import "image";
      @import "content-container";
      @import "glass-container";
+     @import "headings";
      @import "content";
      @import "actions";
      @import "action";

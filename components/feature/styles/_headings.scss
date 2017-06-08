@@ -1,0 +1,11 @@
+@mixin base() {}
+
+&__heading {
+    color: $theme-primary;
+}
+
+&__sub-heading {
+    color: $feature-sub-heading-color;
+    font-size: 17px;
+    line-height: 23px;
+}
