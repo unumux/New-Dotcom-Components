@@ -1,0 +1,63 @@
+@mixin base() {
+    
+    background-color: $item-background-color;
+    border-radius: $border-radius-amount;
+    color: $content-color;
+    display: block;
+    padding: calc(#{$container-padding}/2);
+    padding-right: space(3);
+    position: relative;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff;
+    }
+
+    &:after {
+
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 20px solid #DEDEDE;
+        content: "";
+        display: block;
+        height: 0;
+        position: absolute;
+        right: 12px;
+        top: calc(50% - 12px);
+        width: 0;
+    }
+
+}
+
+&__link {
+     @include base;
+
+     &-header,
+     &-content {
+         color: inherit;
+     }
+
+     &--individual {
+         border-left: 5px solid #19557F;
+
+        &:hover {
+            background-color: #19557F;
+        }
+     }
+
+     &--employer {
+         border-left: 5px solid #1A8573;
+
+        &:hover {
+            background-color: #1A8573;
+        }
+     }
+
+     &--broker {
+         border-left: 5px solid #E89528;
+
+        &:hover {
+            background-color: #E89528;
+        }
+     }
+}

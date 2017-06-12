@@ -1,0 +1,12 @@
+@mixin base() {
+    
+
+    &:last-of-type {
+        text-align: center;
+        margin-top: $container-padding;
+    }
+}
+
+&__content {
+     @include base;
+}
