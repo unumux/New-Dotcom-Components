@@ -1,6 +1,6 @@
 # **Feature Banner**
 
-# **Requirements**
+**Requirements**
 
 This module is a banner that includes the following possible elements:
 
@@ -9,6 +9,15 @@ This module is a banner that includes the following possible elements:
 - Description [required]
 - Button
 - Image (needs to support gifs as well) [required]
+
+**External Links**
+
+[Mobile Design](https://unum.invisionapp.com/d/main#/console/10920806/239675001/preview)
+
+[Desktop Design - content right](https://unum.invisionapp.com/d/main#/console/10920806/236743790/preview)
+
+[Desktop Design - Content left](https://unum.invisionapp.com/d/main#/console/10920806/236745313/preview)
+
 
 # **Notes**
 
