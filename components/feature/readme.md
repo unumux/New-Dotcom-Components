@@ -1,5 +1,7 @@
 # **Feature Banner**
 
+# **Requirements**
+
 This module is a banner that includes the following possible elements:
 
 - Headline [required]
@@ -7,6 +9,8 @@ This module is a banner that includes the following possible elements:
 - Description [required]
 - Button
 - Image (needs to support gifs as well) [required]
+
+# **Notes**
 
 Images and videos in this component will be design elements only, meaning they should not contain content we expect users to pay close attention to or in the case of a video be able to control playback.  
 
