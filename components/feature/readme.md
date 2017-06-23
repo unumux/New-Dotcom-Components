@@ -12,11 +12,17 @@ This module is a banner that includes the following possible elements:
 
 **External Links**
 
+Be sure to right-click and open below links in a new page.
+
 [Mobile Design](https://unum.invisionapp.com/d/main#/console/10920806/239675001/preview)
 
-[Desktop Design - content right](https://unum.invisionapp.com/d/main#/console/10920806/236743790/preview)
+[Desktop Design - content Right](https://unum.invisionapp.com/d/main#/console/10920806/236743790/preview)
 
-[Desktop Design - Content left](https://unum.invisionapp.com/d/main#/console/10920806/236745313/preview)
+[Desktop Design - Content Left](https://unum.invisionapp.com/d/main#/console/10920806/236745313/preview)
+
+[Wireframe - Content Right](http://46dwqc.axshare.com/#g=1&p=feature_banner_-_content_right)
+
+[Wireframe - Content Left](http://46dwqc.axshare.com/#g=1&p=feature_banner_-_content_left)
 
 
 # **Notes**
