@@ -1,6 +1,6 @@
 # New Dotcom Components
 
-Hello all & welcome to the New Dotcom Components repo.  The purpose of this repo is to be a collection point for any/all components that are created for the new dotcom redesign.
+Hello all & welcome to the New Dotcom Components repo.  The purpose of this repo is to be a collection point for any/all components that are created for the new dotcom redesign projects.
 
 # What's a component?
 
@@ -8,7 +8,7 @@ A component is a collective piece of HTML markup & it's corresponding CSS/SCSS t
 
 # How do I know if the component is new?
 
-A new component is one that has not been developed but has been created, reviewed, & approved within the designer/IA invision application.  Please contact a designer for access to the invision application & current project.
+A new component is one that has not been developed but has been created, reviewed, & approved within the designer/IA [invision application workflow](https://unum.invisionapp.com/d/main#/projects/prototypes/10920806/workflow).  Please contact a designer for access to the invision application & current project.
 
 # Are there components already built?
 
