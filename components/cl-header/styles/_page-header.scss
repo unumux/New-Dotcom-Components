@@ -1,0 +1,12 @@
+@mixin base() {
+
+    display: flex;
+	flex-flow: column nowrap;
+    transform-style: preserve-3d;
+    z-index: 100000;
+}
+
+
+.page-header {
+    @include base;
+}
