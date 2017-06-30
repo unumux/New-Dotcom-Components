@@ -1,14 +1,17 @@
-# **Name of Component**
+# **Support Divider**
 
 **Requirements**
 
-*Add design and architecture requirements here.*
+* The intent of this module is to support existing customer actions as relevant to the page content. An example is a CTA to login from the Individuals & Policyholders homepage. 
+* Content within the Support Divider is centered
+
 
 **External Links**
 
 Be sure to right-click the links below to open them in a new page.
 
-*Add links to designs & wireframes here.*
+Wireframes:
+* http://46dwqc.axshare.com/#g=1&p=support_divider
 
 
 # **Notes**
