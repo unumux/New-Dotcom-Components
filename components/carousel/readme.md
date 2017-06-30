@@ -1,8 +1,12 @@
-# **Name of Component**
+# **Carousel**
 
 **Requirements**
 
-*Add design and architecture requirements here.*
+Elements:
+* Headline [required]
+* Description [required]
+* Button [required]
+* Navigation Dots [required]
 
 **External Links**
 
