@@ -19,6 +19,11 @@ Sitecore will remember the user’s selection if they choose an audience. When t
 
 The header is made up of 4 components: logo, dropdown, primary nav, ancillary nav, search
 
+Mobile:
+
+* Menu state resets when closed on mobile
+* When the user backs up a level to audience selection, the audiences become links to landing pages that will drop a user into that audience section and the cookie resets.
+
 **External Links**
 
 Be sure to right-click the links below to open them in a new page.
