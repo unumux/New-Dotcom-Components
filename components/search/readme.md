@@ -1,8 +1,8 @@
-# **Name of Component**
+# **Search**
 
 **Requirements**
 
-*Add design and architecture requirements here.*
+* Search box displays on click and appears below the primary navigation bar. 
 
 **External Links**
 
@@ -13,4 +13,4 @@ Be sure to right-click the links below to open them in a new page.
 
 # **Notes**
 
-*Use this section to record any ideas or thoughs that you have about the component as it's being developed.*
+* Would like to use autocomplete if possible - https://blog.griddynamics.com/implementing-autocomplete-with-solr
