@@ -16,4 +16,4 @@ Wireframes:
 
 # **Notes**
 
-*Use this section to record any ideas or thoughs that you have about the component as it's being developed.*
+Another name this component goes by is slim banner.
