@@ -9,4 +9,9 @@
 
 &__content {
      @include base;
+
+     &--link {
+         color: #198AAF;
+         font-weight: 600;
+     }
 }

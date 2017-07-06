@@ -4,7 +4,7 @@
 
 This module's intent is to call attention to an item or to provide variation in layout.
 
-* Simple banners take up the full-width of their container. They cannot be multiple columns.
+* Takes up the full-width of its container; content is centered
 * Can have up to two buttons
 * Needs to support links
 
@@ -23,6 +23,9 @@ Wireframes:
 * http://46dwqc.axshare.com/#g=1&p=banner
 
 * http://46dwqc.axshare.com/#g=1&p=banner_-_two_ctas
+
+Design: 
+* https://unum.invisionapp.com/share/WPCCMYE52#/237275480_employers-Homepage (Working With Us)
 
 
 # **Notes**
