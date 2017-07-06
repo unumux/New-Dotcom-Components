@@ -20,12 +20,14 @@ The following card configurations have been identified for use in ColonialLife.c
 * Slim Card
 * Slim Card with Icon
 
-For the Content Hub asset repository, the following additional cards are needed:
+For the Content Hub asset repository, the Full Card with Icon needs to be modified as such:
 
-* Content Hub default card - includes social sharing functionality
-* Content Hub new card - includes a flag indicator that the content is new
-  * This will need an auto expiration within Sitecore (time for item to be “new” is not yet decided)
-
+* Full Card with Icon
+- Icon 
+- Headline
+- Description
+- View, Share, Download links - download applies if asset is downloadable
+- New flag indicator (this will need an auto expire within Sitecore)
 
 **External Links**
 
