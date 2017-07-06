@@ -21,7 +21,7 @@ $max-container-width: 500px;
     text-align: left;
 }
 
-.audience-selection {
+.option-selector {
     @include base;
     @import "content";
     @import "header";
