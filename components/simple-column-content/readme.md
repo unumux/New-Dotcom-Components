@@ -13,4 +13,5 @@ Be sure to right-click the links below to open them in a new page.
 
 # **Notes**
 
-*Use this section to record any ideas or thoughs that you have about the component as it's being developed.*
+*This needs a more accurate name to reflect the use case
+*Sara and Bella talked about this being a container for cards
