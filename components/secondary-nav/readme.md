@@ -2,7 +2,8 @@
 
 **Requirements**
 
-*Add design and architecture requirements here.*
+* On mobile, the navigation is collapsed into an accordion with an indicator of whether it is open or closed
+* On desktop, the sidebar is on the left and the content is on the right. Each link is its own page 
 
 **External Links**
 
