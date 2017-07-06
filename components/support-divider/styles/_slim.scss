@@ -1,0 +1,18 @@
+    &--slim {
+        padding-top:20px;
+        padding-bottom:20px;
+
+        #{$block}__heading {
+            display: none;
+        }
+
+        #{$block}__content,
+        #{$block}__actions {
+            display: inline-block;
+        }
+
+        #{$block}__content {
+            margin-bottom: auto;
+            margin-right: 25px;
+        }
+    }

@@ -17,3 +17,5 @@ Wireframes:
 # **Notes**
 
 Another name this component goes by is slim banner.
+
+LS - This seems like it should be a modifier of the willow banner rather than a seperate component.  That is the approach I've taken here.  This is a copy of Willow Banner with the added modifier.
