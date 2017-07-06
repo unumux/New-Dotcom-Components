@@ -23,11 +23,11 @@ The following card configurations have been identified for use in ColonialLife.c
 For the Content Hub asset repository, the Full Card with Icon needs to be modified as such:
 
 * Full Card with Icon
-- Icon 
-- Headline
-- Description
-- View, Share, Download links - download applies if asset is downloadable
-- New flag indicator (this will need an auto expire within Sitecore)
+    - Icon 
+    - Headline
+    - Description
+    - View, Share, Download links - download applies if asset is downloadable
+    - New flag indicator (this will need an auto expire within Sitecore)
 
 **External Links**
 
