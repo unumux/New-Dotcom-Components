@@ -13,5 +13,5 @@ Be sure to right-click the links below to open them in a new page.
 
 # **Notes**
 
-*This needs a more accurate name to reflect the use case
-*Sara and Bella talked about this being a container for cards
+* This needs a more accurate name to reflect the use case
+* Sara and Bella talked about this being a container for cards
