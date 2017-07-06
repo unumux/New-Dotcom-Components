@@ -43,4 +43,4 @@ Design:
 
 # **Notes**
 
-*Use this section to record any ideas or thoughs that you have about the component as it's being developed.*
+[Sitecore Auto Expire Item](https://community.sitecore.net/developers/f/8/t/2398)
