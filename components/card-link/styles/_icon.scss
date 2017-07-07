@@ -1,0 +1,14 @@
+@mixin base() {
+  display: block;
+  background-image: url("https://cdn1.iconfinder.com/data/icons/unique-round-blue/93/globe-128.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+&__icon {
+   @include base; 
+}

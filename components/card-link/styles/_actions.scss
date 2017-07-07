@@ -1,0 +1,10 @@
+@mixin base() {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+&__actions {
+    @include base;
+}
