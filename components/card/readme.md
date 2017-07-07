@@ -47,7 +47,6 @@ Design:
 * Cards are in portrait orientation by default
 * Card images and icons are background images that will be positioned using css
 * Cards are dependant on a 'deck' container and a 'deck-item' per card to work
-*Use this section to record any ideas or thoughs that you have about the component as it's being developed.*
 
 *Questions*
 * Will Cards with 3+ cards in the container wrap and align to the left of the page?
