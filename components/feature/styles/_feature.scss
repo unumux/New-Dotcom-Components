@@ -1,7 +1,6 @@
-$feature-background-color: #F7F7F7;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
 
-$color-ocean: #14AECC;
-$feature-sub-heading-color: $color-ocean;
+$feature-background-color: #F7F7F7;
 
 $glass-container-max-width: 575px;
 $glass-container-after-width-percent: 90%;
@@ -9,28 +8,50 @@ $glass-container-background-color: #FDFDFD;
 
 $shadow-box-bg-color: #ECF1F3;
 
+$heading-font-size: 24px;
+$heading-line-height: 36px;
+$sub-heading-font-size: 12px;
+$sub-heading-line-height: 17px;
+
+
 @mixin base() {
 
     background-color: $feature-background-color;
-    display: flex;
-    height: 600px;
+    
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    
+    line-height: 21px;
     position: relative;
     z-index: 1;
 
     //@include full-width;  <-- This should be applied as a utility class, not here.
+
+    button {
+        width: 100%;
+    }
 }
 
 .feature {
 
-    $block: &; // Sets a reference to the block level element in to the $block variable.  Therefore $block = .willow-feature.
+    $block: &; // Sets a reference to the block level element in to the $block variable.  Therefore $block = .feature.
 
-     @include base;
-     @import "image";
-     @import "content-container";
-     @import "glass-container";
-     @import "headings";
-     @import "content";
-     @import "actions";
-     @import "action";
-     @import "flip";
+    @include base;
+    @import "image";
+    @import "content-container";
+    @import "headings";
+    @import "content";
+    @import "actions";
+    @import "action";
+
+    @media screen and (min-width: 768px) {
+        @import "glass-container";
+    }
+
+    @media screen and (min-width: 1025px) {
+        display: flex;
+        height: 600px;
+
+         @import "flip";
+    }
 }

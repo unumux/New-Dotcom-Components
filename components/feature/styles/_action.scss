@@ -1,10 +1,13 @@
 @mixin base() {
-    display: inline-block;
     font-size: inherit;
     margin-left: space(2);
 
     &:first-of-type {
         margin-left: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: inline-block;
     }
 }
 
