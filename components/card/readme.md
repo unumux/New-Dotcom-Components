@@ -39,6 +39,8 @@ Wireframes:
 Design: 
 
 * https://unum.invisionapp.com/share/WPCCMYE52#/238215670_cards-Varations
+* https://unum.invisionapp.com/d/main#/console/10920806/236745403/preview
+* https://unum.invisionapp.com/d/main#/console/10920806/236745415/preview 
 
 
 # **Notes**
