@@ -1,0 +1,10 @@
+@mixin base() {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    text-overflow: ellipsis;
+}
+
+&__description {
+    @include base;
+}

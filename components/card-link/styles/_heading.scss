@@ -1,0 +1,11 @@
+@mixin base() {
+  color: #777;
+  font-family: oswald;
+  font-size: 28px;
+  line-height: 32px;
+  width: 100%;
+}
+
+&__heading {
+    @include base;
+}
