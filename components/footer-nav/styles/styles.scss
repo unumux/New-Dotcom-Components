@@ -1,0 +1,10 @@
+.willow-footer-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid #ccc;
+
+
+    @import "section";
+    @import "item";
+    @import "link";
+}

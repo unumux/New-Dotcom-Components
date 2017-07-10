@@ -1,0 +1,13 @@
+.willow-page-footer {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @import "actions";
+    @import "action";
+    @import "branding";
+    @import "content";
+    @import "copy";
+    @import "description";
+    @import "legal";
+}
