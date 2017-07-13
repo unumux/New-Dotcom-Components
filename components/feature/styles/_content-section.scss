@@ -3,14 +3,14 @@
     flex-basis: 50%;
     justify-content: flex-start;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
         padding-bottom: space(3);
         padding-left: space(2);
         padding-right: space(2);
         padding-top: space(1);
     }
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
         max-width: 50%;
 
         .feature--flip & {
