@@ -1,9 +1,9 @@
 @mixin base() {
-    font-size: inherit;
-    margin-left: space(2);
-
-    &:first-of-type {
-        margin-left: 0;
+    margin-bottom: space(1);
+    margin-right: space(1);
+    
+    &:last-of-type {
+        margin-bottom: 0;
     }
 
     @media screen and (min-width: 768px) {

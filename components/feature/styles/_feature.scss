@@ -1,57 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
-
-$feature-background-color: #F7F7F7;
-
-$glass-container-max-width: 575px;
-$glass-container-after-width-percent: 90%;
-$glass-container-background-color: #FDFDFD;
-
-$shadow-box-bg-color: #ECF1F3;
-
-$heading-font-size: 24px;
-$heading-line-height: 36px;
-$sub-heading-font-size: 12px;
-$sub-heading-line-height: 17px;
-
-
-@mixin base() {
-
-    background-color: $feature-background-color;
+.feature {
+    @include set-text-style($text-style-content-1);
+    @include full-width;
     
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    
-    line-height: 21px;
+    background-color: $component-feature-background-color;
     position: relative;
     z-index: 1;
 
-    //@include full-width;  <-- This should be applied as a utility class, not here.
-
-    button {
-        width: 100%;
-    }
-}
-
-.feature {
-
-    $block: &; // Sets a reference to the block level element in to the $block variable.  Therefore $block = .feature.
-
-    @include base;
-    @import "image";
-    @import "content-container";
-    @import "headings";
-    @import "content";
-    @import "actions";
-    @import "action";
-
-    @media screen and (min-width: 768px) {
-        @import "glass-container";
-    }
-
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
         display: flex;
         height: 600px;
-
-         @import "flip";
     }
+
+    @import "content";
+    @import "image";
+    @import "content-section";
+    @import "headings";
+    @import "actions";
+    @import "action";
+}
+
+.feature--flip {
+    justify-content: flex-end;
+    padding-left: 0;
 }
