@@ -1,4 +1,4 @@
-# **Support Divider**
+# **Support Banner**
 
 **Requirements**
 
@@ -11,7 +11,10 @@
 Be sure to right-click the links below to open them in a new page.
 
 Wireframes:
-* http://46dwqc.axshare.com/#g=1&p=support_divider
+[All views](http://46dwqc.axshare.com/#g=1&p=support_divider)
+
+Design: 
+[Desktop](https://unum.invisionapp.com/d/main/#/console/10920806/242923200/preview)
 
 
 # **Notes**
