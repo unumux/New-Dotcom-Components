@@ -1,6 +1,6 @@
 .willow-page-footer {
     background-color: #fff;
-    max-width: 1200px;
+    padding: 2rem calc((100% - 1200px)/ 2);
     margin: 0 auto;
 
     @import "actions";

@@ -1,0 +1,28 @@
+@mixin flexWidths($items: 1) {
+    flex-basis: calc(#{100/$items}% - 24px);
+
+    &:nth-child(#{$items}n) {
+        margin-right: 0;
+    }
+}
+
+@mixin base() {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  text-align: center;
+}
+
+
+.w-card {
+    @include base;
+
+    @import "actions";
+    @import "content";
+    @import "description";
+    @import "graphic";
+    @import "heading";
+    @import "icon";
+}
+
+@import "overrides";

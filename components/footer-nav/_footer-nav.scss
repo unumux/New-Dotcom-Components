@@ -1,0 +1,11 @@
+.willow-footer-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
+
+    @import "section";
+    @import "item";
+    @import "link";
+    @import "subheading";
+}

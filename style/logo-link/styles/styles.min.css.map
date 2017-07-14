@@ -1,1 +1,0 @@
-{"version":3,"sources":["logo-link/styles/styles.scss","logo-link/styles/_image.scss"],"names":[],"mappings":"AAAA,yBCCI,eAAiB,CACpB","file":"styles.min.css","sourcesContent":[".willow-logo-link {\n    @import \"image\";\n}","&__image {\n    margin-top: 3rem;\n}"],"sourceRoot":"../../"}

@@ -1,0 +1,14 @@
+&__link {
+    color: $theme-text-primary;
+    &:visited {
+        color: $theme-text-primary;
+    }
+    
+    &:hover {
+        color: $theme-text-primary;
+    }
+    
+    &:active {
+        color: $theme-text-primary;
+    }
+}
