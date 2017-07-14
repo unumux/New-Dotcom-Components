@@ -1,4 +1,4 @@
-# **Name of Component**
+# **Footer**
 
 **Requirements**
 
