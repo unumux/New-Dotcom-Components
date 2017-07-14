@@ -1,0 +1,13 @@
+@mixin base() {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+
+    @media screen and (min-width: 1024px) { 
+        display: none;
+    }
+}
+
+&__mobile-controls {
+    @include base;
+}
