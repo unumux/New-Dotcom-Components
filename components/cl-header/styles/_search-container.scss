@@ -1,0 +1,17 @@
+@mixin base() {
+    height: 60px;
+    order: 3;
+
+    @media screen and (min-width: 1024px) { 
+
+        @include desktop-nav-container;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 30%;
+        order: 5;
+    }
+}
+
+&__search-container {
+    @include base;
+}

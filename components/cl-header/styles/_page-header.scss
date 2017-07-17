@@ -1,12 +1,36 @@
+@mixin desktop-nav-container() {
+    background-color: #19557F;
+    color: white;
+    height: auto;
+    padding-top: space(1);
+    padding-bottom: space(1);
+}
+
 @mixin base() {
 
     display: flex;
-	flex-flow: column nowrap;
-    transform-style: preserve-3d;
-    z-index: 100000;
+	flex-flow: row wrap;
+
+    @media screen and (min-width: 1024px) { 
+        padding-top: space(4);
+        position: relative;
+    }
+
 }
 
 
 .page-header {
+    $block: &;
+
     @include base;
+
+    @import "branding";
+    @import "mobile-controls";
+    @import "login";
+    @import "menu";
+    @import "content";
+    @import "content-selector-container";
+    @import "primary-nav-container";
+    @import "search-container";
+    @import "ansilary-nav-container";
 }

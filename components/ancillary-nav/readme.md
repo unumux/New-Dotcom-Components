@@ -1,4 +1,4 @@
-# **Name of Component**
+# **Ancillary-Nav**
 
 **Requirements**
 
@@ -12,13 +12,13 @@ Be sure to right-click the links below to open them in a new page.
 
 Wireframes:
 
-http://46dwqc.axshare.com/#g=1&p=header_-_individuals
+[Individuals Header](http://46dwqc.axshare.com/#g=1&p=header_-_individuals)
 
-http://46dwqc.axshare.com/#g=1&p=header_-_employers
+[Employers Header](http://46dwqc.axshare.com/#g=1&p=header_-_employers)
 
-http://46dwqc.axshare.com/#g=1&p=header_-_brokers
+[Brokers Header](http://46dwqc.axshare.com/#g=1&p=header_-_brokers)
 
-http://46dwqc.axshare.com/#g=1&p=header_-_about
+[About Header](http://46dwqc.axshare.com/#g=1&p=header_-_about)
 
 
 # **Notes**
