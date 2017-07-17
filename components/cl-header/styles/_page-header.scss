@@ -6,23 +6,11 @@
     padding-bottom: space(1);
 }
 
-@mixin base() {
+.page-header {
+    $page-header: &;
 
     display: flex;
 	flex-flow: row wrap;
-
-    @media screen and (min-width: 1024px) { 
-        padding-top: space(4);
-        position: relative;
-    }
-
-}
-
-
-.page-header {
-    $block: &;
-
-    @include base;
 
     @import "branding";
     @import "mobile-controls";
@@ -33,4 +21,32 @@
     @import "primary-nav-container";
     @import "search-container";
     @import "ansilary-nav-container";
+
+    &[data-is-mobile-nav-open="false"] {
+        #{$page-header}__content {
+            display: none;
+        }
+
+        #{$page-header}__menu--close {
+            display: none;
+        }
+    }
+
+    &[data-is-mobile-nav-open="true"] {
+
+        #{$page-header}__menu--open {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1024px) { 
+        padding-top: space(4);
+        position: relative;
+
+        &[data-is-mobile-nav-open] {
+            #{$page-header}__content {
+                display: flex;
+            }
+        }
+    }
 }

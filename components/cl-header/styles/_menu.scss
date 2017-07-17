@@ -1,8 +1,4 @@
-@mixin base() {
+&__menu {
     height: 60px;
     width: 60px;
-}
-
-&__menu {
-    @include base;
 }

@@ -1,5 +1,8 @@
-@mixin base() {
-    flex: 1 1 calc(100% - 120px);
+&__branding {
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
 
     @media screen and (min-width: 1024px) { 
         flex-grow: 1;
@@ -8,8 +11,4 @@
         margin-bottom: 28px;
         order: 1;
     }
-}
-
-&__branding {
-    @include base;
 }

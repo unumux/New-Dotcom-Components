@@ -1,10 +1,13 @@
-@mixin base() {
+&__content {
     background-color: #19557F;
     color: white;
     display: flex;
     flex-flow: column nowrap;
-    flex: 1 1 100%;        
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;        
     height: calc(100% - 60px);
+    margin-top: 60px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-top: 10px;
@@ -13,9 +16,8 @@
     overflow: hidden;
     overflow-y: auto;
     width: 100%;
-    margin-top: 60px;
-
-    #{$block}__branding {
+    
+    #{$page-header}__branding {
         display: none;
     }
 
@@ -38,12 +40,8 @@
         position: inherit;
         width: 100%;
 
-        #{$block}__branding {
+        #{$page-header}__branding {
             display: block;
         }
     }
-}
-
-&__content {
-    @include base;
 }

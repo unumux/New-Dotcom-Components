@@ -1,4 +1,5 @@
-@mixin base() {
+&__content-selector-container {
+    
     height: 60px;
     order: 1;
     
@@ -9,8 +10,4 @@
         height: auto;
         order: 2;
     }
-}
-
-&__content-selector-container {
-    @include base;
 }

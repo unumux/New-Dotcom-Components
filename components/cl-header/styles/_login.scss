@@ -1,8 +1,4 @@
-@mixin base() {
+&__login {
     height: 60px;
     width: 60px;
-}
-
-&__login {
-    @include base;
 }
