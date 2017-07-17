@@ -8,6 +8,48 @@
     <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 <body>
+
+    <!-- 
+
+        <header class="page-header" role="banner" data-is-mobile-nav-open="false">
+            <div class="page-header__mobile-controls">
+                <div class="page-header__branding">
+                    < !- - insert Logo-Link Component Here - - > 
+                    LOGO
+                </div>
+                <div class="page-header__login">
+                    <!- -  Insert login component here - -> 
+                    Mobile Login
+                </div>
+                <a class="page-header__menu page-header__menu--open" aria-label="Open Menu" href="">menu</a>
+                <a class="page-header__menu page-header__menu--close" aria-label="Close Menu"href="">close</a>
+            </div>
+            <div class="page-header__content">
+                <div class="page-header__branding">
+                    <!- - insert Logo-Link Component Here - ->
+                    Logo Container
+                </div>
+                <div class="page-header__content-selector-container">
+                    <!- - insert content selection component here - ->
+                    Content/Audience Selector Container
+                </div>
+                <div class="page-header__ansilary-nav-container">
+                    <!- - insert ansilary/utility component here - ->
+                    Ansilary Nav Container
+                </div>
+                <div class="page-header__primary-nav-container">
+                    <!- - insert primary nav component here - ->
+                    Primary Nav Container
+                </div>
+                <div class="page-header__search-container">
+                    <!- - insert Search component here - ->
+                    Search container
+                </div>
+            </div>
+        </header>
+
+    -->
+
     
     <div style="max-width: 1900px; margin: 0 auto;">
         <header class="page-header" role="banner" data-is-mobile-nav-open="false">
@@ -18,18 +60,35 @@
                 <a class="page-header__menu page-header__menu--close" aria-label="Close Menu"href="">close</a>
             </div>
             <div class="page-header__content">
-                <div class="page-header__branding"><!-- insert Logo-Link Component Here --> LOGO</div>
+                <div class="page-header__branding">
+                    <!-- insert Logo-Link Component Here -->
+                    <a class="willow-logo-link" href="/" aria-label="go to home page"><img class="willow-logo-link__image" src="http://brand.unumux.com/coloniallife/images/Logo-blue-pewter.svg" alt=""></a>
+                </div>
                 <div class="page-header__content-selector-container">
                     <!-- insert content selection component here -->
                     Content/Audience Selector Container
                 </div>
                 <div class="page-header__ansilary-nav-container">
                     <!-- insert ansilary/utility component here -->
-                    Ansilary/Utility Selector Container
+                    <nav class="willow-primary-nav" role="navigation" aria-label="primary">
+                        <h1 class="willow-primary-nav__heading sr-only">Site Primary Menu</h1>
+                        <ul class="willow-primary-nav__list">
+                            <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="" aria-label="">Menu Item 1</a></li>
+                            <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="" aria-label="">Menu Item 2</a></li>
+                            <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="" aria-label="">Menu Item 3</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="page-header__primary-nav-container">
                     <!-- insert primary nav component here -->
-                    Primary Nav
+                    <nav class="willow-primary-nav" role="navigation" aria-label="primary">
+                        <h1 class="willow-primary-nav__heading sr-only">Site Primary Menu</h1>
+                        <ul class="willow-primary-nav__list">
+                            <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="" aria-label="">Menu Item 1</a></li>
+                            <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="" aria-label="">Menu Item 2</a></li>
+                            <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="" aria-label="">Menu Item 3</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="page-header__search-container">
                     <!-- insert Search component here -->

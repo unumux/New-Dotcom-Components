@@ -6,6 +6,9 @@
     padding-bottom: space(1);
 }
 
+$outer-max-width: 1900px;
+$content-max-width: 1200px;
+
 .page-header {
     $page-header: &;
 

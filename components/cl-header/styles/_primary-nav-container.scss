@@ -13,4 +13,12 @@
         flex-basis: 70%;
         order: 4;
     }
+
+    @media screen and (min-width: $content-max-width) {
+        padding-left: calc((100vw - #{$content-max-width})/2);
+    }
+
+    @media screen and (min-width: $outer-max-width) {
+        padding-left: calc((#{$outer-max-width} - #{$content-max-width})/2);
+    }
 }
