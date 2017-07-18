@@ -1,25 +1,43 @@
-@mixin desktop-nav-container() {
-    background-color: #19557F;
-    color: white;
-    height: auto;
-    padding-top: space(1);
-    padding-bottom: space(1);
-}
-
 $outer-max-width: 1900px;
-$content-max-width: 1200px;
+$inner-max-width: 1200px;
+
+@mixin full-width-bg-color($bg-color: #19557F, $outer-max-width: 0) {
+    @media(min-width: 1024px) {
+    position: relative;
+    z-index: 1;
+    
+        &::before {
+        content: "";
+        background-color: $bg-color;
+        position: absolute;
+        left: calc(0px - (100vw - 100%) / 2);
+        right: calc(0px - (100vw - 100%) / 2);
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+                
+            @if $outer-max-width>0 {
+                @media(min-width: #{$outer-max-width}) {
+                    left: calc(0px - (#{$outer-max-width} - 100%) / 2);
+                    right: calc(0px - (#{$outer-max-width} - 100%) / 2);
+                }
+            }
+        }
+    }
+}
 
 .page-header {
     $page-header: &;
 
     display: flex;
-	flex-flow: row wrap;
+    flex-flow: row wrap;
 
     @import "branding";
     @import "mobile-controls";
     @import "login";
     @import "menu";
     @import "content";
+    @import "nav-wrapper";
     @import "content-selector-container";
     @import "primary-nav-container";
     @import "search-container";
@@ -45,6 +63,11 @@ $content-max-width: 1200px;
     @media screen and (min-width: 1024px) { 
         padding-top: space(4);
         position: relative;
+
+        @if variable-exists(inner-max-width) and  $inner-max-width>0 {
+            max-width: $inner-max-width;
+            margin: 0 auto;
+        }
 
         &[data-is-mobile-nav-open] {
             #{$page-header}__content {

@@ -1,24 +1,8 @@
 &__search-container {
 
     height: 60px;
-    order: 3;
 
     @media screen and (min-width: 1024px) { 
 
-        @include desktop-nav-container;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 30%;
-        order: 5;
-    }
-
-    // The adjustments below are for handling the outer/inner-content max widths
-
-    @media screen and (min-width: $content-max-width) {
-        padding-right: calc((100vw - #{$content-max-width})/2);
-    }
-
-    @media screen and (min-width: $outer-max-width) {
-        padding-right: calc((#{$outer-max-width} - #{$content-max-width})/2);
     }
 }

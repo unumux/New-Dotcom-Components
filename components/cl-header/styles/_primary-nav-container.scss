@@ -3,22 +3,8 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    order: 2;
 
     @media screen and (min-width: 1024px) { 
-        
-        @include desktop-nav-container;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 70%;
-        order: 4;
-    }
 
-    @media screen and (min-width: $content-max-width) {
-        padding-left: calc((100vw - #{$content-max-width})/2);
-    }
-
-    @media screen and (min-width: $outer-max-width) {
-        padding-left: calc((#{$outer-max-width} - #{$content-max-width})/2);
     }
 }

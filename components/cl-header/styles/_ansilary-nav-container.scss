@@ -3,7 +3,6 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    order: 4;
 
     @media screen and (min-width: 1024px) { 
 
@@ -11,16 +10,6 @@
         flex-shrink: 0;
         flex-basis: auto;
         margin-bottom: 28px;
-        order: 3;
     }
-
-    @media screen and (min-width: $content-max-width) {
-        padding-right: calc((100vw - #{$content-max-width})/2);
-    }
-
-    @media screen and (min-width: $outer-max-width) {
-        padding-right: calc((#{$outer-max-width} - #{$content-max-width})/2);
-    }
-
 
 }
