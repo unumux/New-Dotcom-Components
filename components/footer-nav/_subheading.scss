@@ -1,5 +1,5 @@
 &__subheading {
-    font-family: "open sans";
-    font-size: 22px;
+    @include set-text-style($text-style-heading-4);
+
     margin-bottom: .25rem;
 }

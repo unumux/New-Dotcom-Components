@@ -1,11 +1,13 @@
 &__link {
     color: $theme-text-primary;
+    text-decoration: none;
     &:visited {
         color: $theme-text-primary;
     }
     
     &:hover {
         color: $theme-text-primary;
+        text-decoration: underline;
     }
     
     &:active {

@@ -1,0 +1,16 @@
+.willow-breadcrumbs {
+    display: none;
+    
+    @media screen and(min-width: breakpoint(medium)) {
+        display: block;
+        padding-bottom: space(0.5);
+        padding-left: space(2);
+        padding-right: space(2);
+        padding-top: space(0.5);
+
+        @import "heading";
+        @import "list";
+        @import "item";
+        @import "link";
+    }
+}
