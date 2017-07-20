@@ -1,5 +1,15 @@
+@mixin base() {
+    flex-basis: 100%;
+    padding-bottom: 2rem; 
+
+    @media (min-width: 768px) {
+        flex-basis: 25%;
+        flex-grow: 1;
+        flex-shrink: 1; 
+        padding-bottom: 0;     
+    }
+}
+
 &__section {
-    flex-basis: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
+    @include base;
 }

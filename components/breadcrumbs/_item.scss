@@ -1,0 +1,28 @@
+@mixin base() {
+    @include set-text-style($text-style-content-3);
+    
+    color: $component-breadcrumb-text-color;
+    display: inline-block;
+    font-weight: 600;
+
+    &::after {
+        content: ">";
+        margin-bottom: 0;
+        margin-left: space(0.75);
+        margin-right: space(0.25);
+        margin-top: 0;
+        vertical-align: top;
+    }
+}
+
+&__item {
+    @include base;
+    
+    &--active {
+        @include base;
+
+        &::after {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+&__link {
+    color: $theme-link-tertiary;
+
+    &:visited {
+        color: $theme-link-tertiary;
+    }
+    
+    &:hover {
+        color: $theme-link-tertiary;
+        text-decoration: none;
+    }
+    
+    &:active {
+        color: $theme-link-tertiary;
+    }
+}

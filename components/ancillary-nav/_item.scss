@@ -1,15 +1,17 @@
 &__item {
+    @include set-text-style($text-style-content-2);
 
     @media screen and(min-width: breakpoint(small)) {
+        color: $theme-link-tertiary;
         flex: 1 1 auto;
         justify-content: space-between;
         margin: 0;
 
         & + & {
-            margin-left: 2rem;
+            margin-left: space(1);
             &:before {
                 content: "|";
-                margin-right: 2rem;
+                margin-right: space(1);
             }
         }
     }
