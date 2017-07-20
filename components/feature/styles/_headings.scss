@@ -1,31 +1,10 @@
-@mixin base() {}
-
 &__heading {
-    @include base();
-    color: $theme-primary;
-    font-family: "Oswald", sans-serif;
-    font-size: $heading-font-size;
-    font-weight: normal;
-    line-height: $heading-line-height;
-    margin-bottom: 5px;
-
-    @media screen and (min-width: 768px) {
-       font-size: 48px;
-       line-height: 55px;
-    }
+    @include set-text-style($text-style-heading-1);
+    
+    color: $component-feature-heading-color;
 }
 
 &__sub-heading {
-
-    color: $theme-primary;
-    font-family: "Open Sans", sans-serif;
-    font-size: $sub-heading-font-size;
-    font-weight: bold;
-    line-height: $sub-heading-line-height;
-    margin-bottom: 10px;
-
-    @media screen and (min-width: 768px) {
-        font-size: 17px;
-        line-height: 23px;
-    }
+    @include set-text-style($text-style-heading-4);
+    color: $component-feature-heading-color;
 }

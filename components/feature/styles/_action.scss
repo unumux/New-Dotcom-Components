@@ -1,4 +1,4 @@
-@mixin base() {
+&__action {
     font-size: inherit;
     margin-left: space(2);
 
@@ -6,11 +6,7 @@
         margin-left: 0;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
         display: inline-block;
     }
-}
-
-&__action {
-     @include base;
 }

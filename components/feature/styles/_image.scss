@@ -1,25 +1,20 @@
-@mixin base() {
-    //Background image should be loaded via inline style from a CMS.
-
-    align-self: stretch;
+&__image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
-    
     height: 250px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
        height: 425px;
     }
 
-    @media screen and (min-width: 1025px) {
-        flex: 1 1 50%;
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+        flex-basis: 50%;
         height: 100%;
-        order: 2;
-    }
-}
 
-&__image {
-     @include base;
+        .feature--flip & {
+            order: 1;
+        }
+    }
 }
