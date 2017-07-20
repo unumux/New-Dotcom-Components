@@ -1,14 +1,22 @@
-# **Name of Component**
+# **Footer**
 
 **Requirements**
 
-*Add design and architecture requirements here.*
+* The footer element is required on all pages
+* Contains important links to support information finding
+* Includes required information regarding: copyright, legal notices, compensation, accessibility, privacy
 
 **External Links**
 
 Be sure to right-click the links below to open them in a new page.
 
-*Add links to designs & wireframes here.*
+Wireframes:
+
+[Mobile](http://46dwqc.axshare.com/#g=1&p=footer)
+
+Design:
+
+[Desktop](https://unum.invisionapp.com/d/main/#/console/10920806/236745970/preview)
 
 
 # **Notes**

@@ -1,0 +1,47 @@
+&__content {
+    background-color: #19557F;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;        
+    height: calc(100% - 60px);
+    margin-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+    
+    #{$page-header}__branding {
+        display: none;
+    }
+
+    @media screen and (min-width: 1024px) { 
+
+        background-color: transparent;
+        color: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
+        height: auto;
+        margin-top: auto;
+        overflow: visible;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        position: inherit;
+        width: 100%;
+
+        #{$page-header}__branding {
+            display: block;
+        }
+    }
+}
