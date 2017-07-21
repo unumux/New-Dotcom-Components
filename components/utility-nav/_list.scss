@@ -1,0 +1,14 @@
+&__list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    @media screen and(min-width: breakpoint(small)) {
+        align-items: center;
+        display: flex;
+        flex-flow: row nowrap;  
+        width: initial;
+    }
+}

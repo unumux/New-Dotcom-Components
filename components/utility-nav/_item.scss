@@ -1,0 +1,16 @@
+&__item {
+
+    @media screen and(min-width: breakpoint(small)) {
+        flex: 1 1 auto;
+        justify-content: space-between;
+        margin: 0;
+
+        & + & {
+            margin-left: 2rem;
+            &:before {
+                content: "|";
+                margin-right: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+&__link {
+    color: $component-ancillary-nav-link-text;
+
+    &:visited {
+        color: $component-ancillary-nav-link-text;
+    }
+    
+    &:hover {
+        color: $component-ancillary-nav-link-text;
+        text-decoration: none;
+    }
+    
+    &:active {
+        color: $component-ancillary-nav-link-text;
+    }
+}

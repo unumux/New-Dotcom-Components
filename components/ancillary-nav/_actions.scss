@@ -1,0 +1,11 @@
+&__actions {
+    display: block;
+    padding-left: space(0);
+
+    @media screen and(min-width: breakpoint(small)) {
+        padding-left: space(2);
+        flex: 1 1 auto;
+        justify-content: flex-end;
+        list-style: none;
+    }
+}
