@@ -42,3 +42,5 @@ http://46dwqc.axshare.com/#g=1&p=header_-_about
 # **Notes**
 
 This is the scaffolding for the CL header as designed.
+
+2017-07-17: The css transitions for the content container still need to be added.

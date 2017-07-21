@@ -2,7 +2,7 @@
     @include set-text-style($text-style-content-2);
 
     @media screen and(min-width: breakpoint(small)) {
-        color: $theme-link-tertiary;
+        color: $component-ancillary-nav-link-text;
         flex: 1 1 auto;
         justify-content: space-between;
         margin: 0;

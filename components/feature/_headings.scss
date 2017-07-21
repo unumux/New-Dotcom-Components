@@ -1,11 +1,10 @@
-@mixin base() {}
-
 &__heading {
-    color: $theme-primary;
+    @include set-text-style($text-style-heading-1);
+    
+    color: $component-feature-heading-color;
 }
 
 &__sub-heading {
-    color: $feature-sub-heading-color;
-    font-size: 17px;
-    line-height: 23px;
+    @include set-text-style($text-style-heading-4);
+    color: $component-feature-heading-color;
 }

@@ -1,16 +1,16 @@
 &__link {
-    color: $theme-link-tertiary;
+    color: $component-ancillary-nav-link-text;
 
     &:visited {
-        color: $theme-link-tertiary;
+        color: $component-ancillary-nav-link-text;
     }
     
     &:hover {
-        color: $theme-link-tertiary;
+        color: $component-ancillary-nav-link-text;
         text-decoration: none;
     }
     
     &:active {
-        color: $theme-link-tertiary;
+        color: $component-ancillary-nav-link-text;
     }
 }
