@@ -7,6 +7,8 @@
     "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=."
   },
   "dependencies": {
-    "@unumux/theme-coloniallife-default": "0.3.11"
+    "@unumux/theme-coloniallife-default": "^0.3.11",
+    "@unumux/theme-unum-default": "^0.3.11",
+    "@unumux/willow": "^0.1.19"
   }
 }
