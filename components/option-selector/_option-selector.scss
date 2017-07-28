@@ -1,26 +1,37 @@
-$border-radius-amount: 5px;
+$base-size: 4px;
+
+$border-radius-amount: space(1);
 
 $content-color: #333;
+$content-color-two: #596E7F;
+$content-font-size: 1.4rem;
 
 $container-padding: space(2);
 
 $item-content-color: #fff;
 $item-background-color: #F1F1F1;
 
-$max-container-width: 500px;
+$max-container-width: 464px;
 
-@mixin base() {
-
-    background-color: #fff;
-    border-radius: $border-radius-amount;
-    color: $content-color;
-    max-width: $max-container-width;
-    padding: $container-padding;
-    text-align: left;
-}
 
 .option-selector {
-    @include base;
+    background-color: #fff;
+    color: $content-color;
+    padding: $container-padding;
+    padding-bottom: $container-padding * 2;
+    text-align: left;
+
+    @media(min-width: 768px){
+        padding: $container-padding * 2;
+        padding-bottom: $container-padding * 4;
+    }
+
+    @media(min-width: 1024px) {
+        border-radius: $border-radius-amount;
+        box-shadow: 9px 11px 13px 0 rgba(0,0,0,0.25);
+        max-width: $max-container-width;
+    }
+    
     @import "content";
     @import "header";
     @import "list";

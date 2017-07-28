@@ -1,0 +1,27 @@
+$base-size: 4px;
+
+.audience-banner {
+
+    @media(min-width: 1024px) {
+        background-color: #2e2e2e;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-color: $theme-primary;
+        border-bottom-style: solid;
+        border-bottom-width: space(6);
+        color: #fff;
+        margin-bottom: 36px;
+        padding: 96px 20px 120px 20px;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+
+    @media(min-width: 1200px){
+        padding: 96px calc((100vw - 1160px) / 2) 120px;
+    }
+
+    @media(min-width: 1900px){
+        padding: 96px calc((1900px - 1200px) / 2) 120px;
+    }
+}

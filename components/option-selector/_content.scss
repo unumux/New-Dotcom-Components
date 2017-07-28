@@ -1,17 +1,19 @@
-@mixin base() {
+&__content {
+     
+    color: $content-color-two;
+    font-size: $content-font-size;
     
-
     &:last-of-type {
         text-align: center;
         margin-top: $container-padding;
     }
-}
-
-&__content {
-     @include base;
 
      &--link {
-         color: #19557F;
+         color: $theme-primary;
          font-weight: 600;
+     }
+
+     @media(min-width: 768px) {
+         font-size: inherit;
      }
 }
