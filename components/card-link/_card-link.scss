@@ -11,19 +11,15 @@
   flex-flow: column nowrap;
   height: 100%;
   text-align: center;
+  transition: background-color .2s;
 }
 
 .w-card-link {
     @include base;
 
-    @import "actions";
     @import "content";
     @import "description";
     @import "graphic";
     @import "heading";
     @import "icon";
 }
-
-
-
-@import "overrides";

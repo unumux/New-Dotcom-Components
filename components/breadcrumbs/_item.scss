@@ -1,7 +1,6 @@
 @mixin base() {
     @include set-text-style($text-style-content-3);
     
-    color: $component-breadcrumb-text-color;
     display: inline-block;
     font-weight: 600;
 
