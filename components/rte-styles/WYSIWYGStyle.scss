@@ -1,0 +1,15 @@
+.rte {
+    &--colonial {
+        @import "node_modules/@unumux/theme-coloniallife-default/variables/variables";
+        @import "node_modules/@unumux/willow/utilities/mixins/mixins";
+        @import "node_modules/@unumux/willow/utilities/functions/functions";
+        @import "node_modules/@unumux/willow/base-elements/base-elements";
+    }
+
+    &--unum {
+        @import "node_modules/@unumux/theme-unum-default/variables/variables"; 
+        @import "node_modules/@unumux/willow/utilities/mixins/mixins";
+        @import "node_modules/@unumux/willow/utilities/functions/functions";
+        @import "node_modules/@unumux/willow/base-elements/base-elements";
+    }
+}
