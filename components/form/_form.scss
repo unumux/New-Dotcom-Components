@@ -1,0 +1,24 @@
+$component-form-border-color: $theme-base-3;
+$component-form-text-alert: $theme-action-negative;
+
+.w-form {
+    
+    & input,
+    & select,
+    & textarea {
+        border-radius: 4px;
+        padding: space(1);   
+        width: 100%;
+
+        &:invalid {
+            border-color: $component-form-text-alert;
+        }
+    }
+
+    @import "action";
+    @import "actions";
+    @import "help";
+    @import "input-group";
+    @import "input";
+}
+

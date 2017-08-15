@@ -1,0 +1,10 @@
+.fa {
+    padding: space(1);
+
+    @import "content";
+    @import "description";
+    @import "heading";   
+    @import "icon";
+}
+
+@import "address";
