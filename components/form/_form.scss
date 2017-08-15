@@ -1,17 +1,37 @@
-$component-form-border-color: $theme-base-3;
-$component-form-text-alert: $theme-action-negative;
+$steel-blue-light-2: #C3d5e1;
+$color-warning-lightest: #f0e1e3;
+
+$component-form-border-color: $steel-blue-light-2;
+$component-form-text-alert: $color-warning-darker;
+$component-form-border-radius: 4px;
+$component-form-background-color--error: $color-warning-lightest;
+$component-form-border-color--error: $color-warning-darker;
 
 .w-form {
-    
+    margin-bottom: space(1);
+    margin-top: space(1);
+
     & input,
     & select,
     & textarea {
-        border-radius: 4px;
+        border-radius: $component-form-border-radius;
         padding: space(1);   
         width: 100%;
+        margin-bottom: space(2);
 
         &:invalid {
-            border-color: $component-form-text-alert;
+            border-color: $component-form-border-color--error;
+            color: $component-form-text-alert;
+            background-color: $component-form-background-color--error;
+            margin-bottom: 0;
+
+            &::placeholder {
+                color: $component-form-text-alert;
+            }
+
+            & + .w-form__help {
+                display: block;
+            }
         }
     }
 
@@ -21,4 +41,3 @@ $component-form-text-alert: $theme-action-negative;
     @import "input-group";
     @import "input";
 }
-
