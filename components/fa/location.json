@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Dornag's Crushemall Fixerup",
+        "agentID": "12345",
+        "TelephoneNumber": 8888888888,
+        "AddressLine1": "1440 Burstang Ln",
+        "AddressLine2": "Apt 215",
+        "City": "Darrinhyl",
+        "State": "SC",
+        "ZipCode": 11111,
+        "FirstName": "Dornag",
+        "LastName": "Bouldership",
+        "NameSuffix": "III",
+        "NamePrefix": "Sir",
+        "OfficeNumber": 2,
+        "EmailAddress": "gogodornaggo@crushemup.com",
+        "mappedPostalCodes": "notsurewhatthisis"   
+    },
+    {
+        "title": "Burthag's Maulish Hazrang",
+        "agentID": "333",
+        "TelephoneNumber": 1112223333,
+        "AddressLine1": "44 Blartzflange Ct",
+        "AddressLine2": "Cave 45",
+        "City": "Bor Aderhau",
+        "State": "SC",
+        "ZipCode": 29212,
+        "FirstName": "Burthag",
+        "LastName": "Faltorslop",
+        "NameSuffix": "II",
+        "NamePrefix": "Sir",
+        "OfficeNumber": 4,
+        "EmailAddress": "maulinaway@hazrang.com",
+        "mappedPostalCodes": "whatsthis"   
+       }
+]

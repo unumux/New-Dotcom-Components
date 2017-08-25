@@ -1,6 +1,8 @@
 $component-fa-text-color: $color-neutral-darker;
 
 .fa {
+    margin: 0 auto;
+    max-width: 1200px;
     padding: space(1);
 
     @import "content";

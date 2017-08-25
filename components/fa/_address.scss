@@ -2,13 +2,19 @@ $component-address-heading: $color-steel-blue;
 $component-address-border-color: #DEDEDE;
 
 .w-address {
+    font-style: initial;
     margin-left: space(3);
+    margin-top: space(1);
     position: relative;
     padding-left: 0;
 
-    font-style: initial;
     @media screen and(min-width: breakpoint(small)) {
         padding-left: space(1);
+    }
+
+    @media screen and(min-width: breakpoint(medium)) {
+        display: inline-block;
+        width: 32%;
     }
 
     &::after {
