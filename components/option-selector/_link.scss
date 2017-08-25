@@ -1,106 +1,78 @@
-@mixin base() {
-    background-color: white;
+&__link {
+
+    $parent: &;
+
+    background-color: $item-background-color;
     border-radius: $border-radius-amount;
+    border-right-color: $theme-primary;
+    border-right-style: solid;
+    border-right-width: 20px;
+    
     color: $content-color;
     display: block;
-    padding: calc(#{$container-padding}/2);
+    padding: space(2);
     padding-right: space(3);
     position: relative;
     text-decoration: none;
-
-    &:hover {
-        color: #fff;
+    
+    &:after {
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 10px solid $item-background-color;
+        content: "";
+        display: block;
+        height: 0;
+        position: absolute;
+        right: -16px;
+        top: calc(50% - 8px);
+        width: 0;
     }
 
-    
-    background-color: $item-background-color;
+    &-header {
+        color: $theme-primary;
+        font-family: $font-family-secondary;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: space(1);
+        transition: color 1s;
+    }
+
+    &-content {
+        color: $content-color;
+        font-size: 1.4rem;
+        padding-bottom: 10px;
+        transition: color 1s;
+    }
+
+    @media(min-width: 768px) {
+
+        border-right-width: 30px;
 
         &:after {
-
-            border-top: 12px solid transparent;
-            border-bottom: 12px solid transparent;
-            border-left: 20px solid #DEDEDE;
-            content: "";
-            display: block;
-            height: 0;
-            position: absolute;
-            right: -25px;
-            top: calc(50% - 12px);
-            width: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 12px solid $item-background-color;
+            right: -22px;
+            top: calc(50% - 10px);
         }
 
+        &-header {
+            font-size: 2rem;
+        }
     }
 
-&__link {
-     @include base;
+    @media(min-width: 1024px) {
+        box-shadow: inset 0 0 0 0 $theme-primary;
+        transition: box-shadow .75s, color .7s;
 
+        &:hover {
+            box-shadow: inset -50.5em 0 0 0 $theme-primary;
+            color: #fff;
 
-     &-header,
-     &-content {
-        color: inherit;
-        transition: color .5s;
-     }
-
-     &-header {
-        font-weight: 400;
-
-         &--individual {
-             color: #1F4B6A;
-         }
-
-         &--employer {
-             color: #126259;
-         }
-
-         &--broker {
-             color: #C05305;
-         }
-
-         .option-selector__link:hover & {
-            color: white;
-         }
-     }
-
-     &--individual {
-        box-shadow: inset 0 0 0 0 #1F4B6A;
-        transition: box-shadow 0.5s;
-        border-right: 30px solid #1F4B6A;
-
-            &:hover {
-                box-shadow: inset -50.5em 0 0 0 #1F4B6A;
-            }
-
-  
-        
-     }
-
-     &--employer {
-        box-shadow: inset 0 0 0 0 #126259;
-        transition: 0.5s;
-        border-right: 30px solid #126259;
-
-            &:hover {
-                box-shadow: inset -50.5em 0 0 0 #126259;
-            }
-     }
-
-     &--broker {
-        box-shadow: inset 0 0 0 0 #C05305;
-        transition: 0.5s;
-        border-right: 30px solid #C05305;
-
-            &:hover {
-                box-shadow: inset -50.5em 0 0 0 #C05305;
+            #{$parent}-header,
+            #{$parent}-content {
+                color: #fff;
             }
         }
-
-     &-content {
-         color: #4E4E4E;
-         padding-bottom: 10px;
-
-         .option-selector__link:hover & {
-            color: white;
-         }
-     }
-        
+    }      
 }
