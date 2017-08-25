@@ -1,0 +1,61 @@
+$component-address-heading: $color-steel-blue;
+$component-address-border-color: #DEDEDE;
+
+.w-address {
+    font-style: initial;
+    margin-left: space(3);
+    margin-top: space(1);
+    position: relative;
+    padding-left: 0;
+
+    @media screen and(min-width: breakpoint(small)) {
+        padding-left: space(1);
+    }
+
+    @media screen and(min-width: breakpoint(medium)) {
+        display: inline-block;
+        width: 32%;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: space(.5);
+        left: space(-1.5);
+        display: block;
+        width: 3px;
+        top: 40px;
+        height: 70px;
+        background-color: $component-address-border-color;
+
+        @media screen and(min-width: breakpoint(small)) {
+            left: 0;
+            height: 95%;
+            top: 4px;
+        }
+    }
+
+    &::before {
+		content: "";
+		position: absolute;
+		background-image: url("https://image.flaticon.com/icons/png/512/33/33622.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: -2px 5px;
+		height: 40px;
+		width: 30px;
+		top: 0;
+        left: space(-2.5);
+	}
+
+    &__content {
+        position: relative;
+        padding-left: space(0);
+    }
+
+    &__heading {
+        color: $component-address-heading;
+        @include set-text-style($text-style-heading-4);
+        margin-bottom: space(0);
+    }
+}

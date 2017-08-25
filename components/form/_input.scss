@@ -1,0 +1,9 @@
+&__input {
+    border: 1px solid $component-form-border-color;
+    height: space(4);
+
+    @media screen and(min-width: breakpoint(medium)) {
+        border-width: 2px;
+        height: space(6);
+    }
+}

@@ -1,0 +1,6 @@
+&__heading {
+    @include set-text-style($text-style-heading-4);
+    color: $component-fa-text-color;
+    margin-bottom: space(.5);
+    text-align: center;
+}

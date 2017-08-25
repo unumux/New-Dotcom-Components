@@ -1,0 +1,12 @@
+&__actions {
+    padding-bottom: space(0);
+    padding-left: space(0);
+    padding-right: space(0);
+    padding-top: space(0);
+
+    @media screen and(min-width: breakpoint(medium)) {
+        position: absolute;
+        top: space(1);
+        right: space(1);
+    }
+}
