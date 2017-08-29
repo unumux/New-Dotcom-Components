@@ -1,0 +1,9 @@
+$component-pagination-nav-background-color: $color-neutral; //replace with slate grey
+
+.pagination-nav {
+    padding-top: space(2);
+
+    @import "item";
+    @import "link";
+    @import "list";
+}

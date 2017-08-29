@@ -1,0 +1,35 @@
+&__link {
+    border-radius: 4px;
+    vertical-align: baseline;
+    display: inline-block;
+    padding: space(2);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: space(.5);
+    min-width: 40px;
+
+    &[aria-current="true"] {
+       text-decoration: underline; 
+    }
+    
+    &:hover {
+        background-color: $component-pagination-nav-background-color;
+    }
+
+    &--first {
+        background-color: transparent;
+    }
+
+    &--prev {
+        background-color: $component-pagination-nav-background-color;
+    }
+
+    &--next {
+        background-color: $component-pagination-nav-background-color;
+    }
+
+    &--last {
+        background-color: transparent;
+    }
+}

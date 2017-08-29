@@ -1,0 +1,16 @@
+&__item {
+    display: inline-block;
+
+    @media screen and(min-width: breakpoint(small)) {
+        width: calc(50% - 3px);
+
+        &:nth-child(even) {
+            border-left: 2px solid $component-article-list-border-color;
+        }
+    }
+
+    @media screen and(min-width: breakpoint(medium)) {
+        margin-bottom: space(1);
+    }
+
+}
