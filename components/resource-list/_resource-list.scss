@@ -1,0 +1,35 @@
+.resource-list {
+
+    $component-article-list-heading-color: $theme-primary;
+    $component-article-list-background-color: $color-neutral;
+    $component-article-list-border-color: $theme-text-secondary;
+    $component-article-list-text-color: $theme-primary;
+
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+
+    }
+
+    display: flex;
+    flex-flow: row wrap;
+
+    @import "action";
+    @import "actions";
+    @import "heading";
+    @import "item";
+    @import "items";
+    @import "link";
+    @import "subheading";
+
+
+    .summary {
+        &__actions {
+            padding: 0;
+        }
+
+        &__subheading {
+            @include set-text-style($text-style-heading-4);
+            
+            color: $component-article-list-heading-color;
+        }
+    }
+}

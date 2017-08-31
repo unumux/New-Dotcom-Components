@@ -1,0 +1,5 @@
+&__subheading {
+    @include set-text-style($text-style-heading-4);
+    
+    color: $component-article-list-heading-color;
+}

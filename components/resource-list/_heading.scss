@@ -1,0 +1,5 @@
+&__heading {
+    @include set-text-style($text-style-heading-1);
+    
+    color: $component-feature-heading-color;
+}

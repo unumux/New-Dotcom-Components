@@ -20,7 +20,6 @@ $("form").submit(function(e) {
 
         for(var i = 0; i < data.length; i++) {
             var currentItem = data[i];
-            console.log(currentItem);
 
             if(result == data[i].ZipCode) {
 
@@ -52,8 +51,6 @@ $("form").submit(function(e) {
 
                 address.appendChild(myArticle);
                 
-                return output;
-
                 return;
             
             } else {
