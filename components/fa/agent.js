@@ -1,5 +1,4 @@
 $("form").submit(function(e) {
-    //replace the submit function with a document query selector that fires somehow
 
     var address = document.querySelector("address");
     var result = $('.w-form__input').val();
